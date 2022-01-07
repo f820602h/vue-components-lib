@@ -1,24 +1,25 @@
-# vue-components
+# vue-components-lib
 
-## Project setup
-```
-npm install
-```
+a vue components library with storybook
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Usage
 
-### Compiles and minifies for production
-```
-npm run build
-```
+1. 安裝 `vue-components-lib`.
+   ```
+   npm install https://github.com/f820602h/vue-components-lib.git
+   // or
+   yarn add https://github.com/f820602h/vue-components-lib.git
+   ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+2. 在 `main.js` 引入並使用
+    ```
+    import VueComponentsLib from "vue-components-lib"
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+    Vue.use(VueComponentsLib)
+    ```
+
+3. 開始使用元件
+    ```
+    // example
+    <max-button>Click!</max-button>
+    ```

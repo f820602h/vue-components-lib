@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["vue-components"] = factory();
-	else
-		root["vue-components"] = factory();
-})((typeof self !== 'undefined' ? self : this), function() {
-return /******/ (function(modules) { // webpackBootstrap
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -1902,5 +1893,4 @@ module.exports = NATIVE_SYMBOL
 /***/ })
 
 /******/ });
-});
-//# sourceMappingURL=vue-components.umd.js.map
+//# sourceMappingURL=vue-components-lib.common.js.map
